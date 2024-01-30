@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Kaviyarasan">
+        <meta name="description" content="Detail Page">
+        <title>Employee Detail</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="left">
+                <form id="form" autocomplete="off">
+
+                    <h1>Emplyee Detail</h1>
+                    <label for=""><h4>Enter ID</h4></label>
+                    <input class="align" type="number" id="id-input"><br>
+
+                    <label for="name"><h4>Enter Name</h4></label>
+                    <input class="align" type="text" id="name-input"><br>
+
+                    <label for="dob"><h4>Enter DOB</h4></label>
+                    <input class="align" type="date" id="dob-input"><br>
+
+                    <label for="email"><h4>Enter Email</h4></label>
+                    <input class="align" type="email" id="email-input"><br>
+
+                    <div id="msg"></div>
+                    <button id="add-btn" type="submit"> Add </button>&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <button class="clear-btn" onclick="clearData()"> Clear </button>
+                </form>
+            </div>
+
+            <div class="right">
+                <table>
+                    <thead id = detail>
+                        <tr>
+                            <th>Employee ID</th>
+                            <th>Employee Name</th>
+                            <th>Employee DOB</th>
+                            <th>Employee Email</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>

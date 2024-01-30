@@ -1,0 +1,130 @@
+.container{
+    text-align: center;
+    display: flex;
+    
+}
+.left{
+    text-align: left;
+    margin: 2%;
+    margin-left: 7%;
+    margin-right: 5%;
+    
+}
+.right{
+    text-align: center;
+    margin: 3%;
+    width: 800px;
+    
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+h4{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.align{
+    margin-bottom: 25px;
+}
+
+#input-container{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border: 10px;
+    display: flex;
+    align-items:center;
+}
+
+#id-input,
+#name-input,
+#dob-input,
+#email-input{
+    padding: 12px;
+    padding-right: 50px;
+    font-size: 16px;
+    margin-right: 75px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button{
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 12px; 
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+}
+
+.clear-btn{
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 12px; 
+}
+
+.clear-btn:hover{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.edit-btn{
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    background: white;
+    border-radius: 12px;
+    color:black;
+}
+
+.edit-btn:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+.delete-btn{
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    background: white;
+    border-radius: 12px;
+    color:black;
+}
+
+.delete-btn:hover{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
